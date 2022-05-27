@@ -99,6 +99,7 @@ bool SecurityDetection(int *&avaliable, int **allocation, int **&need, int m, in
         }
         else if(find == 0)
         {
+            cout << "* Deadlock found!" << endl;
             cout << "* Unsafe Status" << endl;
             delete work;
             delete seq;
